@@ -3,7 +3,6 @@ import json
 import re
 from tqdm.asyncio import tqdm
 import openai
-from aiohttp import ClientSession
 
 client = openai.AsyncOpenAI()
 
